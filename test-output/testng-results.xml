@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-04T18:19:58 EET" name="Default suite" finished-at="2023-12-04T18:20:23 EET" duration-ms="25214">
+  <suite started-at="2023-12-04T18:38:53 EET" name="Default suite" finished-at="2023-12-04T18:39:21 EET" duration-ms="27311">
     <groups>
     </groups>
-    <test started-at="2023-12-04T18:19:58 EET" name="Default test" finished-at="2023-12-04T18:20:23 EET" duration-ms="25214">
+    <test started-at="2023-12-04T18:38:53 EET" name="Default test" finished-at="2023-12-04T18:39:21 EET" duration-ms="27311">
       <class name="second_task.signupAndLogin">
-        <test-method is-config="true" signature="myBeforeTest()[pri:0, instance:second_task.signupAndLogin@269f4bad]" started-at="2023-12-04T18:19:58 EET" name="myBeforeTest" finished-at="2023-12-04T18:20:00 EET" duration-ms="2456" status="PASS">
+        <test-method is-config="true" signature="myBeforeTest()[pri:0, instance:second_task.signupAndLogin@5ed731d0]" started-at="2023-12-04T18:38:53 EET" name="myBeforeTest" finished-at="2023-12-04T18:38:56 EET" duration-ms="2649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myBeforeTest -->
-        <test-method signature="SignUpTest()[pri:1, instance:second_task.signupAndLogin@269f4bad]" started-at="2023-12-04T18:20:00 EET" name="SignUpTest" finished-at="2023-12-04T18:20:06 EET" duration-ms="6247" status="PASS">
+        <test-method signature="SignUpTest()[pri:1, instance:second_task.signupAndLogin@5ed731d0]" started-at="2023-12-04T18:38:56 EET" name="SignUpTest" finished-at="2023-12-04T18:39:03 EET" duration-ms="6786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpTest -->
-        <test-method signature="LogoutTest()[pri:2, instance:second_task.signupAndLogin@269f4bad]" started-at="2023-12-04T18:20:06 EET" name="LogoutTest" finished-at="2023-12-04T18:20:18 EET" duration-ms="11147" status="PASS">
+        <test-method signature="LogoutTest()[pri:2, instance:second_task.signupAndLogin@5ed731d0]" started-at="2023-12-04T18:39:03 EET" name="LogoutTest" finished-at="2023-12-04T18:39:15 EET" duration-ms="11804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutTest -->
-        <test-method signature="LoginTest()[pri:3, instance:second_task.signupAndLogin@269f4bad]" started-at="2023-12-04T18:20:18 EET" name="LoginTest" finished-at="2023-12-04T18:20:23 EET" duration-ms="5262" status="PASS">
+        <test-method signature="LoginTest()[pri:3, instance:second_task.signupAndLogin@5ed731d0]" started-at="2023-12-04T18:39:15 EET" name="LoginTest" finished-at="2023-12-04T18:39:21 EET" duration-ms="5994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->

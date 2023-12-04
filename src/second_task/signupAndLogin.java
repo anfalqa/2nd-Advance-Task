@@ -58,11 +58,14 @@ public class signupAndLogin extends Parameters{
 		
 		Thread.sleep(3000); 
 		//assert 3 
-		
+		WebElement navbar=driver.findElement(By.xpath("(//button[@type='button'])[1]"));
+		navbar.click();
+		String myAccount = driver.findElement(By.xpath("(//a[normalize-space()='My Account'])[1]")).getText();
 		String welcomeAssert = driver.findElement(By.xpath(welcome)).getText();
+		
 		softassert.assertEquals(welcomeAssert.contains("Welcome"), true,"Validation The Login Process 1");
 		softassert.assertEquals(welcomeAssert.contains(FName), true,"Validation The Login Process 2");
-
+		 softassert.assertEquals(myAccount.contains("My Account"),true ,"validation the Login process 3");
 		 softassert.assertAll();
 		 
 		
